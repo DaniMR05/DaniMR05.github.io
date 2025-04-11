@@ -1,0 +1,14 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  li {
+    background: #e1f5fe;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: #0277bd;
+    font-weight: bold;
+  }

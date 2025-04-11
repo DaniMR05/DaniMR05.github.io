@@ -1,1 +1,33 @@
-<p>skills works!</p>
+<style>
+  .cv-box {
+    border: 1px solid #999;
+    padding: 15px;
+    min-height: 150px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  i {
+    color: #4caf50;
+    font-style: normal;
+    font-weight: bold;
+  }
+</style>
+
+<div class="cv-box">
+  <ul *ngFor="let job of skills">
+    <li>
+      {{job.skill}} - <i>{{job.percentage}}%</i>
+    </li>
+  </ul>
+</div>
