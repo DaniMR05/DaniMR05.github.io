@@ -25,7 +25,7 @@ jobs:
         run: npm install -g @angular/cli
 
       - name: Build Angular app
-        run: ng build --base-href /DaniMR05.github.io/ --output-path docs
+        run: ng build --base-href /
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
