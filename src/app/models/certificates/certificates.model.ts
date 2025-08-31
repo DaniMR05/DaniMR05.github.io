@@ -4,4 +4,5 @@ export class Certificates {
 	titulo?: string='titulo';
 	ano?: string='AAAA';
 	desc?: string= 'descripcion';
+	url?: string='url';
 }
